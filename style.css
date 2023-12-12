@@ -98,11 +98,11 @@ h5{
     background: #F1B505;
     border: none;
     font-weight: 700;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .buttonyellow:hover{
-    scale:1.05;
+    scale:1.05; 
 }
 
 .banner-img{
