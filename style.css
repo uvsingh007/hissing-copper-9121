@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: DM Sans;    
-     
+    transition: all 0.5s ease;
 }
 h1, h2, h3, h4{
     font-family: 'DM Serif Display', serif;
@@ -38,6 +38,7 @@ h5{
     text-decoration: none;
     padding-right:40px;
     color: white;
+    font-weight: 700;
 }
 .navbar-titles>a:hover{
     color:#F1B505;
@@ -49,6 +50,17 @@ h5{
     padding:11px 56.5px;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.30);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar-button>button:hover{
+    color: white;
+    border-radius: 5px;
+    background: #F1B505;
+    border: none;
+    scale: 1.05;
+    
 }
 
 .banner{
@@ -76,6 +88,7 @@ h5{
     width: 30%;
     margin-bottom:41px;
     line-height: 24px;
+    font-weight: 700;
 }
 
 .buttonyellow{
@@ -84,7 +97,13 @@ h5{
     border-radius: 5px;
     background: #F1B505;
     border: none;
-} 
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.buttonyellow:hover{
+    scale:1.05;
+}
 
 .banner-img{
     position: absolute;
