@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=DM+Serif+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: DM Sans; 
+    
+}
+h1, h2, h3, h4{
+    font-family: 'DM Serif Display', serif;
+}
+h5{
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #434CCC;     
+    color:white;
+    padding:16px 135px;
+}
+
+.navbar-logo{
+    font-size: 40px;
+}
+
+.navbar-cont{
+    flex:0.5;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar-titles>a{
+    text-decoration: none;
+    padding-right:40px;
+    color: white;
+}
+.navbar-titles>a:hover{
+    color:#F1B505;
+}
+
+.navbar-button>button{
+    color: white;
+    background: transparent;
+    padding:11px 56.5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+.banner{
+    position: relative;
+    color:white;
+    background: #434CCC;
+    height: 681px;
+}
+
+.banner-cont{
+    padding:88px 135px 0px 135px;
+}
+
+.banner-cont>h5{
+    margin-bottom:24px;
+}
+
+.banner-heading{
+    font-size: 72px;
+    width: 50%;
+    margin-bottom:32px;
+}
+
+.banner-description{
+    width: 30%;
+    margin-bottom:41px;
+    line-height: 24px;
+}
+
+.buttonyellow{
+    padding:11px 55.5px;
+    color: white;
+    border-radius: 5px;
+    background: #F1B505;
+    border: none;
+} 
+
+.banner-img{
+    position: absolute;
+    top:0;
+    left:440px;
+    margin-top: -30px;
+    width: 1074px;
+    height: 100%;
+}
