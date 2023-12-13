@@ -231,3 +231,81 @@ h5{
     font-weight: 700;
     font-size: 16px;
 }
+
+
+
+.review-section {
+    display: flex;
+    justify-content: center;
+    background:#f5f6fc ;
+    flex-direction: column;
+    padding:63px 135px 117px 135px;
+  }
+  .review-cont{
+    text-align: center;
+  }
+  .review-cont>h5{
+    margin-bottom: 21px;
+    
+  }
+  .review-cont>h2{
+     margin-bottom: 29px;
+     font-size: 56px;
+  }
+  .review-cont>p{
+    width: 38%;
+    margin-left: 355px;
+    text-align: center;
+  
+  }
+  
+  
+  .review-section-inner{
+    display: flex;
+    align-items: center;
+  }
+  .review-section-content-left{
+  margin-left: -100px;
+  }
+  .review-section-content-left>h3{
+    width: 60%;
+    font-size: 40px;
+    margin-bottom: 37px;
+  }
+  .review-section-content-left>p{
+    color:#00000080;
+    margin-bottom: 37px;
+  }
+  .review-section-btn{
+    border:none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+  }
+  .review-section-content-right{
+    margin-right: -100px;
+    width: 50%;
+    margin-left: 100px;
+  }
+  .review-section-content-right>h3{
+    font-size: 40px;
+    margin-bottom: 37px;
+  }
+  .review-section-content-right>p{
+     color:#00000080;
+     margin-bottom: 37px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
