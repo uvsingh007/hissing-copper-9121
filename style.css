@@ -28,7 +28,6 @@ h5{
 }
 
 .navbar-cont{
-    flex:0.5;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -238,7 +237,6 @@ h5{
 }
 
 
-
 .review-section {
     display: flex;
     justify-content: center;
@@ -246,24 +244,27 @@ h5{
     flex-direction: column;
     padding:63px 135px 117px 135px;
   }
+
   .review-cont{
     text-align: center;
   }
+
   .review-cont>h5{
     margin-bottom: 21px;
     
   }
+
   .review-cont>h2{
      margin-bottom: 29px;
      font-size: 56px;
   }
+
   .review-cont>p{
     width: 38%;
     margin-left: 355px;
     text-align: center;
   
   }
-  
   
   .review-section-inner{
     display: flex;
