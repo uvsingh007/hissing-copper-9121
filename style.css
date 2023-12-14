@@ -133,7 +133,7 @@ h5{
 
 #head{
     
-    color: black;
+    /* color: black; */
     font-size: 56px;
     text-align: center;
     /* margin-left: 35%; */
@@ -169,7 +169,7 @@ h5{
 .service-card{
     background-color: white;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     padding: 20px 0px;
     flex-direction: column;
     width: 370px;
@@ -181,59 +181,38 @@ h5{
 
 .service-card-img{
     text-align: center;
+    margin-top: 60px;
 }
 
 .service-card-cont{
     padding-left:32px;
 }
 
-#houselogo{
-     margin-top: 25px;
-    background-color: white;
-    height: 150px;
-    width: 132px;
-    padding-top:  30px;    
-    margin-bottom: 30px;
-}
 
-#carlogo{
-    margin-top: 57px;
-    /* margin-left: 80px; */
-    background-color: white;
-    width: 186px;
-    height: 96px;
-    padding-bottom: 55px ; 
-    margin-bottom: 30px;
-}
-
-#hour-logo{
-   
-    background-color: white;
-    width: 144px;
-    height: 126px;
-    padding-top: 40px ; 
-    padding-bottom: 40px;
-    margin-bottom: 30px;
-}
-
-.service-card>h4{
+.service-card-cont>h4{
+    margin-left:-2px;
     margin-bottom: 30px;
     font-size: 24px;
 }
 
-.service-card>p{
+.service-card-cont>p{
     color: #7f7f7f;
+    margin-right:32px;
     margin-bottom: 30px;
 }
 
 #line{
     opacity: 0.0.1011;
+    margin-bottom: 18px;
 }
 
-#learn{
-    color: black;
-    font-weight: 700;
-    font-size: 16px;
+.learn-btn{
+    border:none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
 }
 
 
@@ -282,14 +261,6 @@ h5{
     color:#00000080;
     width: 75%;
     margin-bottom: 37px;
-  }
-  .review-section-btn{
-    border:none;
-    background: none;
-    display: flex;
-    align-items: center;
-    gap:10px;
-    cursor: pointer;
   }
   .review-section-content-right{
     margin-right: -100px;
