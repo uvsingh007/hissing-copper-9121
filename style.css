@@ -34,12 +34,17 @@ h5{
     align-items: center;
 }
 
+.navbar-titles{
+    display: flex;
+    gap: 40px;
+}
+
 .navbar-titles>a{
     text-decoration: none;
-    padding-right:40px;
     color: white;
     font-weight: 700;
 }
+
 .navbar-titles>a:hover{
     color:#F1B505;
 }
@@ -52,6 +57,7 @@ h5{
     border: 1px solid rgba(255, 255, 255, 0.30);
     font-weight: 700;
     cursor: pointer;
+    margin-left: 40px;
 }
 
 .navbar-button>button:hover{
@@ -60,7 +66,6 @@ h5{
     background: #F1B505;
     border: none;
     scale: 1.05;
-    
 }
 
 .banner{
@@ -110,7 +115,7 @@ h5{
     top:0;
     left:440px;
     margin-top: -30px;
-    width: 1074px;
+    width: 70%;
     height: 100%;
 }
 
@@ -274,6 +279,7 @@ h5{
   }
   .review-section-content-left>p{
     color:#00000080;
+    width: 75%;
     margin-bottom: 37px;
   }
   .review-section-btn{
@@ -295,6 +301,7 @@ h5{
   }
   .review-section-content-right>p{
      color:#00000080;
+     width: 85%;
      margin-bottom: 37px;
   }
   
