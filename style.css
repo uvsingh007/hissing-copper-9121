@@ -63,7 +63,6 @@ h5{
     color: white;
     border-radius: 5px;
     background: #F1B505;
-    border: none;
     scale: 1.05;
 }
 
@@ -114,7 +113,7 @@ h5{
     top:0;
     left:440px;
     margin-top: -30px;
-    width: 70%;
+    width: 65%;
     height: 100%;
 }
 
@@ -276,8 +275,74 @@ h5{
      width: 85%;
      margin-bottom: 37px;
   }
+
+.project-section{
+    background: #434CCC;     
+    color:white;
+    padding:79px 135px 0px 135px;
+}
+
+.project-section-cont{
+    text-align: center;
+}
+
+.project-section-cont>h5{
+    margin-bottom: 21px;
+}
+
+.project-section-cont>h2{
+    margin-bottom: 36px;
+    font-size: 56px;
+}
+
+.project-section-cont>p{
+    margin-bottom: 52px;
+}
+
+.project-section-overview{
+    background: url("./assets/girlwithmac.png");
+    height: 512px;
+    border-radius: 5px;
+    background-position: 30% 30%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    /* margin-bottom: -128px; */
+}
+
+.project-section-titles{
+    padding: 111px 0px 0px 100px ;
+    /* background: #F1B505;  */
+}
+
+.project-section-titles>h5{
+    margin-bottom: 21px;
+}
+
+.project-section-titles>h2{
+    margin-bottom: 36px;
+    font-size: 56px;
+}
+
+.project-section-titles>button{
+    padding: 13px 43px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+.project-section-titles>button:hover{
+    scale:1.05;
+    color:black;
+    background: white;
+}
+
+.project-section-img>img{
+    height: 512px;
+}
   
-  
+
   
   
   
