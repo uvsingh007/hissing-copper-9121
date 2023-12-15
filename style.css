@@ -296,7 +296,6 @@ h5{
     background-position: 300px -73px;
     display: grid;
     grid-template-columns: repeat(2,1fr); 
-    z-index:99;
     margin-top: -550px;
 }
 
@@ -440,12 +439,13 @@ h5{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 600px;
-    margin-top: 100px;
+    margin-top: 200px;
     align-items: center;
+    margin-left: -50px;
 }
 .project-delivery-img>img{
-    height: 100%;
-    width: 100%;
+    height: fit-content;
+    width: fit-content;
 }
 
 .project-delivery-cont>h2{
