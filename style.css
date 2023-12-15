@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: DM Sans;    
-    /* transition: all 0.5s ease; */
+    transition: all 0.5s ease;
 }
 h1, h2, h3, h4{
     font-family: 'DM Serif Display', serif;
@@ -120,14 +120,10 @@ h5{
 #service-section{
     background-color: #ffdd78;
     width: 100%;
-    /* height: 800px; */
-    /* padding:60px 135px 80px 135px; */
-    /* padding-bottom: 80px; */
 }
 
 .service-cont{
     padding:60px 135px 80px 135px;
-    /* padding-top: 60px; */
 }
 
 #head{
@@ -135,7 +131,6 @@ h5{
     /* color: black; */
     font-size: 56px;
     text-align: center;
-    /* margin-left: 35%; */
     font-weight: 400;
 }
 
@@ -237,12 +232,6 @@ h5{
      font-size: 56px;
   }
 
-  .review-cont>p{
-    width: 38%;
-    margin-left: 355px;
-    text-align: center;
-  
-  }
   
   .review-section-inner{
     display: flex;
@@ -280,6 +269,7 @@ h5{
     background: #434CCC;     
     color:white;
     padding:79px 135px 0px 135px;
+    height: 650px;
 }
 
 .project-section-cont{
@@ -306,8 +296,12 @@ h5{
     background-position: 300px -73px;
     display: grid;
     grid-template-columns: repeat(2,1fr); 
-
     z-index:99;
+    margin-top: -550px;
+}
+
+.project-section-overview:hover{
+    scale:1.02;
 }
 
 .project-section-titles{
@@ -315,13 +309,15 @@ h5{
     /* background: #F1B505;  */
 }
 
-.project-section-titles>h5{
+.project-section-titles>p{
     margin-bottom: 21px;
+    color:#FFFFFF80;
 }
 
 .project-section-titles>h2{
     margin-bottom: 36px;
     font-size: 56px;
+    color: white;
 }
 
 .project-section-titles>button{
@@ -337,18 +333,18 @@ h5{
     scale:1.05;
     color:black;
     background: white;
+    cursor: pointer;
 }
 
-.project-section-img>img{
-    height: 512px;
-}
 .project-section-part{
     padding: 128px 135px;
     background-color: #f5f6fd;
-} 
-.project-section-part{
-    /* margin-top: -96px; */
 }
+
+.project-section-profile{
+    margin-top: 32px;
+}
+
 .project-section-tiles{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -356,15 +352,18 @@ h5{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    
 }
+
 .tile-cont{
     margin: 79px 0px 0px 100px;
     color: white;
 }
+
 .tile-cont>p{
     margin-bottom: 17px;
+    color:#FFFFFF80;
 }
+
 .tile-cont>h4{
     font-size: 24px;
     margin-bottom: 24px;
@@ -375,34 +374,27 @@ h5{
     height: 100%;
     background-position:-20px 10px ;
     background-size:850px 560px;   
+    border-radius: 5px;
 }
 
 
-.project-section-tile-one>p{
-  font-size: 16px;
-  height: 24px;
-  width: 67px; 
+.project-section-tile-one:hover{
+    scale: 1.02;
 }
 
-.project-section-tile-one>h4{
-    font-size: 24px;
-    color: white;
-    height:96px ;
-    width: 161px;
-  }
-
-.project-section-tile-two>p{
-    font-size: 16px;
-    height: 24px;
-    width: 67px; 
-}
 .project-section-plus{
     border: 1px solid #FFFFFF4D;
     text-align: center;
     padding: 12px 0px;
     border-radius: 15%;
-    width: 48px;  
+    width: 48px; 
+    cursor: pointer;
 }
+
+.project-section-plus:hover{
+    scale: 1.05;
+}
+
 .project-section-tile-two>h4{
     font-size: 24px;
     color: white;
@@ -416,12 +408,18 @@ h5{
     height: 100%;
     background-position:-250px -80px;
     background-size:1300px 900px;
+    border-radius: 5px;
+}
+
+.project-section-tile-two:hover{
+    scale: 1.02;
 }
 
 .project-section-works-btn{
     text-align: center;
 
 }
+
 .works-btn{
     text-align: center;
     margin-top: 35px;
@@ -433,6 +431,51 @@ h5{
     background: transparent;
 }
 
+.works-btn:hover{
+    color:black;
+    scale: 1.05;
+}
+
+.project-section-delivery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 600px;
+    margin-top: 100px;
+    align-items: center;
+}
+.project-delivery-img>img{
+    height: 100%;
+    width: 100%;
+}
+
+.project-delivery-cont>h2{
+    font-size: 56px;
+    margin-bottom: 27px;
+}
+
+.project-delivery-cont>p{
+    margin-bottom: 48px;
+}
+
+.project-delivery-subcont{
+    display:flex;
+    gap:30px;
+}
+
+.project-delivery-subcont p{
+    margin-top: 7px;
+    color: #00000080;
+}
+
+.project-delivery-subcont-one>h4{
+    margin-top: 38px;
+    font-size: 24px;
+}
+
+.project-delivery-subcont-two>h4{
+    margin-top: 24px;
+    font-size: 24px;
+}
   
   
   
