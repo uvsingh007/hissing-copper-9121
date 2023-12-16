@@ -14,6 +14,10 @@ h5{
     text-transform: uppercase;
     font-weight: 300;
 }
+hr{
+    margin-left: 32px;
+    color:#00000031;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -195,11 +199,6 @@ h5{
     margin-bottom: 30px;
 }
 
-#line{
-    opacity: 0.0.1011;
-    margin-bottom: 18px;
-}
-
 .learn-btn{
     border:none;
     background: none;
@@ -207,8 +206,12 @@ h5{
     align-items: center;
     gap:10px;
     cursor: pointer;
+    margin-top: 18px;
 }
 
+#line{
+    margin-left: unset;
+}
 
 .review-section {
     display: flex;
@@ -481,9 +484,7 @@ h5{
 .banner-two-img{
     position: absolute;
     top:0px;
-    left:440px;
-    /* margin-top: -10px; */
-    width: 720px;
+    right:0px;
     height: 680px;
     margin-left: 280px;
   }
@@ -544,21 +545,17 @@ h5{
   align-items: center;
   margin-left: 33px;
   margin-top: 20px;
-  color: #00000080;
   }
  
   .user-section-profile-icon{
-    /* margin-left: 150px;
-    margin-top: 20px; */
    align-items: center;
     display: flex;
     gap: 13px;
   }
   .user-section-profile-icon>img{
-    /* margin-left: 150px;
-    margin-top: 20px; */
-   width: auto;
-   height: 18px;
+    cursor: pointer;
+    width: auto;
+    height: 18px;
   }
   
   
