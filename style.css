@@ -476,6 +476,90 @@ h5{
     margin-top: 24px;
     font-size: 24px;
 }
+
+
+.banner-two-img{
+    position: absolute;
+    top:0px;
+    left:440px;
+    /* margin-top: -10px; */
+    width: 720px;
+    height: 680px;
+    margin-left: 280px;
+  }
+  
+
+  .user-section-cont{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .user-section-cont>h2{
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 400px;
+  }
+  
+  .user-section-cont>p{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 470px;
+    margin-left: 480px;
+  }
+  .user-section-card{
+    display: grid;
+    grid-template-columns: repeat(3,370px);
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+    margin-bottom: 40px;
+  }
+  
+  .user-section-card-inner>img{
+    margin-left: 23px;
+    margin-top: 25px;
+  }
+  
+  .user-section-card-inner{
+    height: 480px;
+    width: 350px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+    border-radius: 5px;
+  }
+  .user-section-card-inner>h4{
+    margin-left: 33px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 400;
+  
+  }
+  .line{
+    margin-left: 33px;
+    color:#00000031;
+  }
+  .user-section-profile{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+  align-items: center;
+  margin-left: 33px;
+  margin-top: 20px;
+  color: #00000080;
+  }
+ 
+  .user-section-profile-icon{
+    /* margin-left: 150px;
+    margin-top: 20px; */
+   align-items: center;
+    display: flex;
+    gap: 13px;
+  }
+  .user-section-profile-icon>img{
+    /* margin-left: 150px;
+    margin-top: 20px; */
+   width: auto;
+   height: 18px;
+  }
   
   
   
