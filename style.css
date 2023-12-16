@@ -14,6 +14,10 @@ h5{
     text-transform: uppercase;
     font-weight: 300;
 }
+hr{
+    margin-left: 32px;
+    color:#00000031;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -28,18 +32,22 @@ h5{
 }
 
 .navbar-cont{
-    flex:0.5;
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
+.navbar-titles{
+    display: flex;
+    gap: 40px;
+}
+
 .navbar-titles>a{
     text-decoration: none;
-    padding-right:40px;
     color: white;
     font-weight: 700;
 }
+
 .navbar-titles>a:hover{
     color:#F1B505;
 }
@@ -52,15 +60,14 @@ h5{
     border: 1px solid rgba(255, 255, 255, 0.30);
     font-weight: 700;
     cursor: pointer;
+    margin-left: 40px;
 }
 
 .navbar-button>button:hover{
     color: white;
     border-radius: 5px;
     background: #F1B505;
-    border: none;
     scale: 1.05;
-    
 }
 
 .banner{
@@ -110,6 +117,453 @@ h5{
     top:0;
     left:440px;
     margin-top: -30px;
-    width: 1074px;
+    width: 65%;
     height: 100%;
 }
+
+#service-section{
+    background-color: #ffdd78;
+    width: 100%;
+}
+
+.service-cont{
+    padding:60px 135px 80px 135px;
+}
+
+#head{
+    
+    /* color: black; */
+    font-size: 56px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#service-section-paragraph{
+    color: black;
+    font-weight: 100;
+}
+
+
+#para-one{
+    margin-top: 29px;
+    margin-left: 30%;
+    font-size: 24px;
+
+}
+
+#para-two{
+    margin-left: 42%;
+    font-size: 24px;    
+   
+}
+
+.service-section-cards{
+    display: flex;
+    gap: 30px;
+    margin-top: 36px;
+    justify-content: center;
+}
+
+.service-card{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    flex-direction: column;
+    width: 370px;
+    height: 416px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+}
+
+.service-card-img{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.service-card-cont{
+    padding-left:32px;
+}
+
+
+.service-card-cont>h4{
+    margin-left:-2px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.service-card-cont>p{
+    color: #7f7f7f;
+    margin-right:32px;
+    margin-bottom: 30px;
+}
+
+.learn-btn{
+    border:none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+#line{
+    margin-left: unset;
+}
+
+.review-section {
+    display: flex;
+    justify-content: center;
+    background:#f5f6fc ;
+    flex-direction: column;
+    padding:63px 135px 117px 135px;
+  }
+
+  .review-cont{
+    text-align: center;
+  }
+
+  .review-cont>h5{
+    margin-bottom: 21px;
+    
+  }
+
+  .review-cont>h2{
+     margin-bottom: 29px;
+     font-size: 56px;
+  }
+
+  
+  .review-section-inner{
+    display: flex;
+    align-items: center;
+  }
+  .review-section-content-left{
+  margin-left: -100px;
+  }
+  .review-section-content-left>h3{
+    width: 60%;
+    font-size: 40px;
+    margin-bottom: 37px;
+  }
+  .review-section-content-left>p{
+    color:#00000080;
+    width: 75%;
+    margin-bottom: 37px;
+  }
+  .review-section-content-right{
+    margin-right: -100px;
+    width: 50%;
+    margin-left: 100px;
+  }
+  .review-section-content-right>h3{
+    font-size: 40px;
+    margin-bottom: 37px;
+  }
+  .review-section-content-right>p{
+     color:#00000080;
+     width: 85%;
+     margin-bottom: 37px;
+  }
+
+.project-section{
+    background: #434CCC;     
+    color:white;
+    padding:79px 135px 0px 135px;
+    height: 650px;
+}
+
+.project-section-cont{
+    text-align: center;
+}
+
+.project-section-cont>h5{
+    margin-bottom: 21px;
+}
+
+.project-section-cont>h2{
+    margin-bottom: 36px;
+    font-size: 56px;
+}
+
+.project-section-cont>p{
+    margin-bottom: 52px;
+}
+
+.project-section-overview{
+    background: url("./assets/girlwithmac.png");
+    height: 512px;
+    border-radius: 5px;
+    background-position: 300px -73px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    margin-top: -550px;
+}
+
+.project-section-overview:hover{
+    scale:1.02;
+}
+
+.project-section-titles{
+    padding: 111px 0px 0px 100px ;
+    /* background: #F1B505;  */
+}
+
+.project-section-titles>p{
+    margin-bottom: 21px;
+    color:#FFFFFF80;
+}
+
+.project-section-titles>h2{
+    margin-bottom: 36px;
+    font-size: 56px;
+    color: white;
+}
+
+.project-section-titles>button{
+    padding: 13px 43px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+.project-section-titles>button:hover{
+    scale:1.05;
+    color:black;
+    background: white;
+    cursor: pointer;
+}
+
+.project-section-part{
+    padding: 128px 135px;
+    background-color: #f5f6fd;
+}
+
+.project-section-profile{
+    margin-top: 32px;
+}
+
+.project-section-tiles{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,512px);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.tile-cont{
+    margin: 79px 0px 0px 100px;
+    color: white;
+}
+
+.tile-cont>p{
+    margin-bottom: 17px;
+    color:#FFFFFF80;
+}
+
+.tile-cont>h4{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.project-section-tile-one{
+    background-color: #e94a47;
+    background-image: url(./assets/artifact.png);
+    height: 100%;
+    background-position:-20px 10px ;
+    background-size:850px 560px;   
+    border-radius: 5px;
+}
+
+
+.project-section-tile-one:hover{
+    scale: 1.02;
+}
+
+.project-section-plus{
+    border: 1px solid #FFFFFF4D;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 15%;
+    width: 48px; 
+    cursor: pointer;
+}
+
+.project-section-plus:hover{
+    scale: 1.05;
+}
+
+.project-section-tile-two>h4{
+    font-size: 24px;
+    color: white;
+    height:96px ;
+    width: 161px;
+}
+
+.project-section-tile-two{
+    background-color: #428dfc ;
+    background-image: url(./assets/dog.png);
+    height: 100%;
+    background-position:-250px -80px;
+    background-size:1300px 900px;
+    border-radius: 5px;
+}
+
+.project-section-tile-two:hover{
+    scale: 1.02;
+}
+
+.project-section-works-btn{
+    text-align: center;
+
+}
+
+.works-btn{
+    text-align: center;
+    margin-top: 35px;
+    width: 170px;
+    height: 48px;
+    color :#434CCC;
+    border-radius: 6px;
+    border:1px solid  #bbbfed;
+    background: transparent;
+}
+
+.works-btn:hover{
+    color:black;
+    scale: 1.05;
+}
+
+.project-section-delivery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 600px;
+    margin-top: 200px;
+    align-items: center;
+    margin-left: -50px;
+}
+.project-delivery-img>img{
+    height: fit-content;
+    width: fit-content;
+}
+
+.project-delivery-cont>h2{
+    font-size: 56px;
+    margin-bottom: 27px;
+}
+
+.project-delivery-cont>p{
+    margin-bottom: 48px;
+}
+
+.project-delivery-subcont{
+    display:flex;
+    gap:30px;
+}
+
+.project-delivery-subcont p{
+    margin-top: 7px;
+    color: #00000080;
+}
+
+.project-delivery-subcont-one>h4{
+    margin-top: 38px;
+    font-size: 24px;
+}
+
+.project-delivery-subcont-two>h4{
+    margin-top: 24px;
+    font-size: 24px;
+}
+
+
+.banner-two-img{
+    position: absolute;
+    top:0px;
+    right:0px;
+    height: 680px;
+    margin-left: 280px;
+  }
+  
+
+  .user-section-cont{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .user-section-cont>h2{
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 400px;
+  }
+  
+  .user-section-cont>p{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 470px;
+    margin-left: 480px;
+  }
+  .user-section-card{
+    display: grid;
+    grid-template-columns: repeat(3,370px);
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+    margin-bottom: 40px;
+  }
+  
+  .user-section-card-inner>img{
+    margin-left: 23px;
+    margin-top: 25px;
+  }
+  
+  .user-section-card-inner{
+    height: 480px;
+    width: 350px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+    border-radius: 5px;
+  }
+  .user-section-card-inner>h4{
+    margin-left: 33px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 400;
+  
+  }
+  .line{
+    margin-left: 33px;
+    color:#00000031;
+  }
+  .user-section-profile{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+  align-items: center;
+  margin-left: 33px;
+  margin-top: 20px;
+  }
+ 
+  .user-section-profile-icon{
+   align-items: center;
+    display: flex;
+    gap: 13px;
+  }
+  .user-section-profile-icon>img{
+    cursor: pointer;
+    width: auto;
+    height: 18px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
