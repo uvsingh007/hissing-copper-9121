@@ -20,6 +20,9 @@ hr{
 }
 .navbar{
     display: flex;
+    position: sticky;
+    top:0;
+    z-index: 10;
     justify-content: space-between;
     align-items: center;
     background: #434CCC;     
