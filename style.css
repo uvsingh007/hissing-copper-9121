@@ -410,11 +410,9 @@ margin-bottom: 21px;
 
 .project-section-works-btn{
     text-align: center;
-
 }
 
 .works-btn{
-    text-align: center;
     margin-top: 35px;
     width: 170px;
     height: 48px;
@@ -422,6 +420,7 @@ margin-bottom: 21px;
     border-radius: 6px;
     border:1px solid  #bbbfed;
     background: transparent;
+    cursor: pointer;
 }
 
 .works-btn:hover{
