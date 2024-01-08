@@ -43,5 +43,5 @@ here is demo link :- https://hissing-copper-9121.netlify.app/
 
 ## Screenshots
 
-![App Screenshot]![image](https://drive.google.com/uc?export=view&id=1913oZeBZPBNiUuk8gu3ZSbLBA2l_VQtG))
+![App Screenshot](https://drive.google.com/uc?export=view&id=1semCytHZXnK1XDQ0rq47Ro5HIw3XQ4Az)
 
